@@ -11,4 +11,4 @@ describe('mayusculas', () => {
     `('$firstValue should return $expectedResult', ({firstValue, expectedResult}) => {
       expect(isUpperCase(firstValue)).toBe(expectedResult);
     });
-  }
+});
